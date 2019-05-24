@@ -19,4 +19,8 @@ class Artist
     new_song = Song.new(song)
     add_song(new_song)
   end
+
+  def self.post_count
+    @songs.count
+  end
 end
