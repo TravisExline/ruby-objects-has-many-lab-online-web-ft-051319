@@ -20,7 +20,7 @@ class Artist
     add_song(new_song)
   end
 
-  def self.post_count
+  def self.song_count
     Song.all.count
   end
 end
